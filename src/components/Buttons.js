@@ -1,4 +1,5 @@
 import satData from "./satData.js";
+import "./styling.css";
 
 const Buttons = (props) => {
   const filterByType = props.filterByType;
@@ -6,7 +7,7 @@ const Buttons = (props) => {
   const displaySats = props.displaySats;
 
   return (
-    <div>
+    <div className = "flex-container">
       <div>
         {displaySats.map((sat, id) => {
           return (
