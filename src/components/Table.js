@@ -1,6 +1,5 @@
 import "./styling.css";
 
-
 const Table = ({ sat }) => {
   console.log({sat});
   return (
